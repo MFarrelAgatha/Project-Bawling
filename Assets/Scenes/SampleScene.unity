@@ -977,15 +977,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 380f36f179e205a4a82781b319c58f9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 1719390717}
-  directionSlider: {fileID: 1311673602}
-  startPoint: {fileID: 1487741002}
-  forwardSpeed: 19.35
+  portName: COM6
+  baudRate: 115200
+  forwardSpeed: 15
   horizontalRange: 3
-  isLaunched: 0
+  startPoint: {fileID: 1487741002}
+  directionSlider: {fileID: 1311673602}
+  mainCamera: {fileID: 1719390717}
   followSliderWhileMoving: 1
-  sliderFollowSpeed: 20
-  maxCurveAmount: 2
+  sliderFollowSpeed: 8
+  responseSpeed: 12
 --- !u!135 &502419124
 SphereCollider:
   m_ObjectHideFlags: 0
